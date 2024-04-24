@@ -3,22 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "type": "string",
-            "metadata": {
-                "description": "Web app name"
-            }
+            "value": "ContactDatabaseApp"
         },
         "appServicePlanName": {
-            "type": "string",
-            "metadata": {
-                "description": "App Service plan name"
-            }
-        },
-        "location": {
-            "type": "string",
-            "metadata": {
-                "description": "Location for all resources"
-            }
+            "value": "ContactDatabaseAppServicePlan"
         }
     }
 }
